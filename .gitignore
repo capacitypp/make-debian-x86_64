@@ -83,4 +83,10 @@ httpd/make-httpd-2.4.10/*
 httpd/make-httpd-2.4.23/*
 !httpd/make-httpd-2.4.23/*.sh
 !httpd/make-httpd-2.4.23/*.patch
+!libgcrypt
+libgcrypt/*
+!libgcrypt/make-libgcrypt-1.7.3
+libgcrypt/make-libgcrypt-1.7.3/*
+!libgcrypt/make-libgcrypt-1.7.3/*.sh
+!libgcrypt/make-libgcrypt-1.7.3/*.patch
 

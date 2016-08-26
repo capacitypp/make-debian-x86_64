@@ -38,3 +38,6 @@ httpd-2.4.1
 httpd-2.4.10
 httpd-2.4.23
 
+### libgcrypt
+libgcrypt-1.7.3
+

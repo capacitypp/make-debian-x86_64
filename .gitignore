@@ -113,4 +113,8 @@ libgpg-error/*
 libgpg-error/make-libgpg-error-1.0/*
 !libgpg-error/make-libgpg-error-1.0/*.sh
 !libgpg-error/make-libgpg-error-1.0/*.patch
+!libgpg-error/make-libgpg-error-1.24
+libgpg-error/make-libgpg-error-1.24/*
+!libgpg-error/make-libgpg-error-1.24/*.sh
+!libgpg-error/make-libgpg-error-1.24/*.patch
 

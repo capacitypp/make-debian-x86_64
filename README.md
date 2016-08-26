@@ -48,3 +48,6 @@ httpd-2.4.23
 ### libgcrypt
 libgcrypt-1.7.3
 
+### libgd
+libgd-2.0.33
+

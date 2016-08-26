@@ -89,4 +89,10 @@ libgcrypt/*
 libgcrypt/make-libgcrypt-1.7.3/*
 !libgcrypt/make-libgcrypt-1.7.3/*.sh
 !libgcrypt/make-libgcrypt-1.7.3/*.patch
+!libgd
+libgd/*
+!libgd/make-libgd-2.0.33
+libgd/make-libgd-2.0.33/*
+!libgd/make-libgd-2.0.33/*.sh
+!libgd/make-libgd-2.0.33/*.patch
 

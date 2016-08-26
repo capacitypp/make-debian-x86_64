@@ -62,3 +62,5 @@ libgpg-error-1.0
 
 libgpg-error-1.24
 
+libgpg-error-1.6
+

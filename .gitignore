@@ -215,4 +215,8 @@ php/make-php-5.4.16/*
 php/make-php-5.5.0/*
 !php/make-php-5.5.0/*.sh
 !php/make-php-5.5.0/*.patch
+!php/make-php-5.5.16
+php/make-php-5.5.16/*
+!php/make-php-5.5.16/*.sh
+!php/make-php-5.5.16/*.patch
 

@@ -70,5 +70,7 @@ libpng-1.2.6
 libpng-1.6.24
 
 ### libxml2
+libxml2-2.5.8
+
 libxml2-2.5.10
 

@@ -1,0 +1,9 @@
+*
+!.gitignore
+!Python
+Python/*
+!Python/make-Python-3.5.2
+Python/make-Python-3.5.2/*
+!Python/make-Python-3.5.2/*.sh
+!Python/make-Python-3.5.2/*.patch
+

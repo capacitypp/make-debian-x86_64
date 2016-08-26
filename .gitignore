@@ -33,4 +33,10 @@ apr-util/make-apr-util-1.4.1/*
 apr-util/make-apr-util-1.5.4/*
 !apr-util/make-apr-util-1.5.4/*.sh
 !apr-util/make-apr-util-1.5.4/*.patch
+!bison
+bison/*
+!bison/make-bison-1.875
+bison/make-bison-1.875/*
+!bison/make-bison-1.875/*.sh
+!bison/make-bison-1.875/*.patch
 

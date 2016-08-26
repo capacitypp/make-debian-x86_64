@@ -18,3 +18,6 @@ apr-1.5.2
 apr-util-1.4.1
 apr-util-1.5.4
 
+### bison
+bison-1.875
+

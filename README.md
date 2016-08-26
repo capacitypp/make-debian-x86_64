@@ -126,3 +126,5 @@ postgresql-7.1
 
 postgresql-7.3
 
+postgresql-8.1.0
+

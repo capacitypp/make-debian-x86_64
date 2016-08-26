@@ -57,3 +57,6 @@ libgd-2.1.1
 
 libgd-2.2.3
 
+### libgpg-error
+libgpg-error-1.0
+

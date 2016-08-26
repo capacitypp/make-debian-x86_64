@@ -135,3 +135,6 @@ postgresql-9.5.4
 ### readline
 readline-4.3
 
+### zlib
+zlib-1.2.3
+

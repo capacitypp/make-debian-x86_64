@@ -263,4 +263,10 @@ readline/*
 readline/make-readline-4.3/*
 !readline/make-readline-4.3/*.sh
 !readline/make-readline-4.3/*.patch
+!zlib
+zlib/*
+!zlib/make-zlib-1.2.3
+zlib/make-zlib-1.2.3/*
+!zlib/make-zlib-1.2.3/*.sh
+!zlib/make-zlib-1.2.3/*.patch
 

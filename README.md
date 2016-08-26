@@ -132,3 +132,6 @@ postgresql-9.1.0
 
 postgresql-9.5.4
 
+### readline
+readline-4.3
+

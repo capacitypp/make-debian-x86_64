@@ -227,4 +227,8 @@ php/make-php-5.6.0/*
 php/make-php-5.6.16/*
 !php/make-php-5.6.16/*.sh
 !php/make-php-5.6.16/*.patch
+!php/make-php-7.0.0
+php/make-php-7.0.0/*
+!php/make-php-7.0.0/*.sh
+!php/make-php-7.0.0/*.patch
 

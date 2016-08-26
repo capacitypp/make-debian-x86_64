@@ -27,3 +27,6 @@ flex-2.5.4
 ### fontconfig
 fontconfig-2.12.1
 
+### freetype
+freetype-2.6.5
+

@@ -51,4 +51,10 @@ fontconfig/*
 fontconfig/make-fontconfig-2.12.1/*
 !fontconfig/make-fontconfig-2.12.1/*.sh
 !fontconfig/make-fontconfig-2.12.1/*.patch
+!freetype
+freetype/*
+!freetype/make-freetype-2.6.5
+freetype/make-freetype-2.6.5/*
+!freetype/make-freetype-2.6.5/*.sh
+!freetype/make-freetype-2.6.5/*.patch
 

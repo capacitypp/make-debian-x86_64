@@ -21,3 +21,6 @@ apr-util-1.5.4
 ### bison
 bison-1.875
 
+### flex
+flex-2.5.4
+

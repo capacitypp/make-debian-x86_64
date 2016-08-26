@@ -39,4 +39,10 @@ bison/*
 bison/make-bison-1.875/*
 !bison/make-bison-1.875/*.sh
 !bison/make-bison-1.875/*.patch
+!flex
+flex/*
+!flex/make-flex-2.5.4
+flex/make-flex-2.5.4/*
+!flex/make-flex-2.5.4/*.sh
+!flex/make-flex-2.5.4/*.patch
 

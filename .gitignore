@@ -29,4 +29,8 @@ apr-util/*
 apr-util/make-apr-util-1.4.1/*
 !apr-util/make-apr-util-1.4.1/*.sh
 !apr-util/make-apr-util-1.4.1/*.patch
+!apr-util/make-apr-util-1.5.4
+apr-util/make-apr-util-1.5.4/*
+!apr-util/make-apr-util-1.5.4/*.sh
+!apr-util/make-apr-util-1.5.4/*.patch
 

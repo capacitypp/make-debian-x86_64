@@ -51,3 +51,5 @@ libgcrypt-1.7.3
 ### libgd
 libgd-2.0.33
 
+libgd-2.1.0
+

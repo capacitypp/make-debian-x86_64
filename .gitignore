@@ -95,4 +95,8 @@ libgd/*
 libgd/make-libgd-2.0.33/*
 !libgd/make-libgd-2.0.33/*.sh
 !libgd/make-libgd-2.0.33/*.patch
+!libgd/make-libgd-2.1.0
+libgd/make-libgd-2.1.0/*
+!libgd/make-libgd-2.1.0/*.sh
+!libgd/make-libgd-2.1.0/*.patch
 

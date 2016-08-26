@@ -18,4 +18,8 @@ apr/*
 apr/make-apr-1.4.6/*
 !apr/make-apr-1.4.6/*.sh
 !apr/make-apr-1.4.6/*.patch
+!apr/make-apr-1.5.2
+apr/make-apr-1.5.2/*
+!apr/make-apr-1.5.2/*.sh
+!apr/make-apr-1.5.2/*.patch
 

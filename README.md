@@ -130,3 +130,5 @@ postgresql-8.1.0
 
 postgresql-9.1.0
 
+postgresql-9.5.4
+

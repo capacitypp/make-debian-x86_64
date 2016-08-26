@@ -67,3 +67,5 @@ libgpg-error-1.6
 ### libpng
 libpng-1.2.6
 
+libpng-1.6.24
+

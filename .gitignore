@@ -179,6 +179,10 @@ php/make-php-5.1.6/*
 php/make-php-5.2.0/*
 !php/make-php-5.2.0/*.sh
 !php/make-php-5.2.0/*.patch
+!php/make-php-5.2.5
+php/make-php-5.2.5/*
+!php/make-php-5.2.5/*.sh
+!php/make-php-5.2.5/*.patch
 !php/make-php-5.2.10
 php/make-php-5.2.10/*
 !php/make-php-5.2.10/*.sh

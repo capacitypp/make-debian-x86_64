@@ -82,3 +82,6 @@ libxml2-2.8.0
 
 libxml2-2.9.4
 
+### php
+php-5.0.0
+

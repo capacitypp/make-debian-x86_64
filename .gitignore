@@ -157,4 +157,10 @@ libxml2/make-libxml2-2.8.0/*
 libxml2/make-libxml2-2.9.4/*
 !libxml2/make-libxml2-2.9.4/*.sh
 !libxml2/make-libxml2-2.9.4/*.patch
+!php
+php/*
+!php/make-php-5.0.0
+php/make-php-5.0.0/*
+!php/make-php-5.0.0/*.sh
+!php/make-php-5.0.0/*.patch
 

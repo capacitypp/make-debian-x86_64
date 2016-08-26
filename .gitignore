@@ -121,4 +121,10 @@ libgpg-error/make-libgpg-error-1.24/*
 libgpg-error/make-libgpg-error-1.6/*
 !libgpg-error/make-libgpg-error-1.6/*.sh
 !libgpg-error/make-libgpg-error-1.6/*.patch
+!libpng
+libpng/*
+!libpng/make-libpng-1.2.6
+libpng/make-libpng-1.2.6/*
+!libpng/make-libpng-1.2.6/*.sh
+!libpng/make-libpng-1.2.6/*.patch
 

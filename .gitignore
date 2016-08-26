@@ -6,4 +6,10 @@ Python/*
 Python/make-Python-3.5.2/*
 !Python/make-Python-3.5.2/*.sh
 !Python/make-Python-3.5.2/*.patch
+!apache
+apache/*
+!apache/make-apache-1.3.42
+apache/make-apache-1.3.42/*
+!apache/make-apache-1.3.42/*.sh
+!apache/make-apache-1.3.42/*.patch
 

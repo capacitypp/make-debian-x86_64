@@ -30,3 +30,6 @@ fontconfig-2.12.1
 ### freetype
 freetype-2.6.5
 
+### httpd
+httpd-2.0.50
+

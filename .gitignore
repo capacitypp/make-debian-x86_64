@@ -1,5 +1,6 @@
 *
 !.gitignore
+!environment.sh
 !Python
 Python/*
 !Python/make-Python-3.5.2

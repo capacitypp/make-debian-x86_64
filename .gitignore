@@ -71,4 +71,8 @@ httpd/make-httpd-2.0.55/*
 httpd/make-httpd-2.0.61/*
 !httpd/make-httpd-2.0.61/*.sh
 !httpd/make-httpd-2.0.61/*.patch
+!httpd/make-httpd-2.4.1
+httpd/make-httpd-2.4.1/*
+!httpd/make-httpd-2.4.1/*.sh
+!httpd/make-httpd-2.4.1/*.patch
 

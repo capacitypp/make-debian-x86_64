@@ -78,3 +78,5 @@ libxml2-2.6.20
 
 libxml2-2.7.1
 
+libxml2-2.8.0
+

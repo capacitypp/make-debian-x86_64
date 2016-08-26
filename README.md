@@ -36,4 +36,5 @@ httpd-2.0.55
 httpd-2.0.61
 httpd-2.4.1
 httpd-2.4.10
+httpd-2.4.23
 

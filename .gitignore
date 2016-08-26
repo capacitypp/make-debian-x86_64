@@ -79,4 +79,8 @@ httpd/make-httpd-2.4.1/*
 httpd/make-httpd-2.4.10/*
 !httpd/make-httpd-2.4.10/*.sh
 !httpd/make-httpd-2.4.10/*.patch
+!httpd/make-httpd-2.4.23
+httpd/make-httpd-2.4.23/*
+!httpd/make-httpd-2.4.23/*.sh
+!httpd/make-httpd-2.4.23/*.patch
 

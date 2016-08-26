@@ -249,4 +249,8 @@ postgresql/make-postgresql-7.3/*
 postgresql/make-postgresql-8.1.0/*
 !postgresql/make-postgresql-8.1.0/*.sh
 !postgresql/make-postgresql-8.1.0/*.patch
+!postgresql/make-postgresql-9.1.0
+postgresql/make-postgresql-9.1.0/*
+!postgresql/make-postgresql-9.1.0/*.sh
+!postgresql/make-postgresql-9.1.0/*.patch
 

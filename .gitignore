@@ -12,4 +12,10 @@ apache/*
 apache/make-apache-1.3.42/*
 !apache/make-apache-1.3.42/*.sh
 !apache/make-apache-1.3.42/*.patch
+!apr
+apr/*
+!apr/make-apr-1.4.6
+apr/make-apr-1.4.6/*
+!apr/make-apr-1.4.6/*.sh
+!apr/make-apr-1.4.6/*.patch
 

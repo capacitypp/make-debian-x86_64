@@ -235,4 +235,10 @@ php/make-php-7.0.0/*
 php/make-php-7.0.10/*
 !php/make-php-7.0.10/*.sh
 !php/make-php-7.0.10/*.patch
+!postgresql
+postgresql/*
+!postgresql/make-postgresql-7.1
+postgresql/make-postgresql-7.1/*
+!postgresql/make-postgresql-7.1/*.sh
+!postgresql/make-postgresql-7.1/*.patch
 

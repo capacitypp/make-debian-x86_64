@@ -12,10 +12,12 @@ apache-1.3.42
 
 ### apr
 apr-1.4.6
+
 apr-1.5.2
 
 ### apr-util
 apr-util-1.4.1
+
 apr-util-1.5.4
 
 ### bison
@@ -32,10 +34,15 @@ freetype-2.6.5
 
 ### httpd
 httpd-2.0.50
+
 httpd-2.0.55
+
 httpd-2.0.61
+
 httpd-2.4.1
+
 httpd-2.4.10
+
 httpd-2.4.23
 
 ### libgcrypt

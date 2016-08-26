@@ -22,4 +22,10 @@ apr/make-apr-1.4.6/*
 apr/make-apr-1.5.2/*
 !apr/make-apr-1.5.2/*.sh
 !apr/make-apr-1.5.2/*.patch
+!apr-util
+apr-util/*
+!apr-util/make-apr-util-1.4.1
+apr-util/make-apr-util-1.4.1/*
+!apr-util/make-apr-util-1.4.1/*.sh
+!apr-util/make-apr-util-1.4.1/*.patch
 

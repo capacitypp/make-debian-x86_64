@@ -14,3 +14,6 @@ apache-1.3.42
 apr-1.4.6
 apr-1.5.2
 
+### apr-util
+apr-util-1.4.1
+

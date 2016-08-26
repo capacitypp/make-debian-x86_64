@@ -1,0 +1,57 @@
+diff -ur php-5.0.5/configure php-5.0.5.new/configure
+--- php-5.0.5/configure	2005-09-05 20:16:17.000000000 +0900
++++ php-5.0.5.new/configure	2016-08-23 13:13:22.571959425 +0900
+@@ -34092,7 +34092,7 @@
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   ac_save_LIBS="$LIBS"
+-LIBS="-lpng  $LIBS"
++LIBS="-lpng -lpng12  $LIBS"
+ cat > conftest.$ac_ext <<EOF
+ #line 34098 "configure"
+ #include "confdefs.h"
+@@ -34254,7 +34254,7 @@
+       
+ 
+   if test "$ext_shared" = "yes"; then
+-    GD_SHARED_LIBADD="-lpng $GD_SHARED_LIBADD"
++    GD_SHARED_LIBADD="-lpng -lpng12 $GD_SHARED_LIBADD"
+     if test -n "$GD_PNG_DIR/lib"; then
+       
+   if test "$GD_PNG_DIR/lib" != "/usr/lib"; then
+@@ -34337,7 +34337,7 @@
+   case png in
+   c|c_r|pthread*) ;;
+   *) 
+-      LIBS="-lpng $LIBS" 
++      LIBS="-lpng -lpng12 $LIBS" 
+    ;;
+   esac
+ 
+@@ -35890,7 +35890,7 @@
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   ac_save_LIBS="$LIBS"
+-LIBS="-lpng  $LIBS"
++LIBS="-lpng -lpng12  $LIBS"
+ cat > conftest.$ac_ext <<EOF
+ #line 35896 "configure"
+ #include "confdefs.h"
+@@ -36052,7 +36052,7 @@
+       
+ 
+   if test "$ext_shared" = "yes"; then
+-    GD_SHARED_LIBADD="-lpng $GD_SHARED_LIBADD"
++    GD_SHARED_LIBADD="-lpng -lpng12 $GD_SHARED_LIBADD"
+     if test -n "$GD_PNG_DIR/lib"; then
+       
+   if test "$GD_PNG_DIR/lib" != "/usr/lib"; then
+@@ -36135,7 +36135,7 @@
+   case png in
+   c|c_r|pthread*) ;;
+   *) 
+-      LIBS="-lpng $LIBS" 
++      LIBS="-lpng -lpng12 $LIBS" 
+    ;;
+   esac
+ 

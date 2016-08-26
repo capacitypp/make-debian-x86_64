@@ -32,4 +32,5 @@ freetype-2.6.5
 
 ### httpd
 httpd-2.0.50
+httpd-2.0.55
 

@@ -63,4 +63,8 @@ httpd/*
 httpd/make-httpd-2.0.50/*
 !httpd/make-httpd-2.0.50/*.sh
 !httpd/make-httpd-2.0.50/*.patch
+!httpd/make-httpd-2.0.55
+httpd/make-httpd-2.0.55/*
+!httpd/make-httpd-2.0.55/*.sh
+!httpd/make-httpd-2.0.55/*.patch
 

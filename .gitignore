@@ -131,4 +131,10 @@ libpng/make-libpng-1.2.6/*
 libpng/make-libpng-1.6.24/*
 !libpng/make-libpng-1.6.24/*.sh
 !libpng/make-libpng-1.6.24/*.patch
+!libxml2
+libxml2/*
+!libxml2/make-libxml2-2.5.10
+libxml2/make-libxml2-2.5.10/*
+!libxml2/make-libxml2-2.5.10/*.sh
+!libxml2/make-libxml2-2.5.10/*.patch
 

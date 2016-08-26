@@ -24,3 +24,6 @@ bison-1.875
 ### flex
 flex-2.5.4
 
+### fontconfig
+fontconfig-2.12.1
+

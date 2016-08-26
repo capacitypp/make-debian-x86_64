@@ -45,4 +45,10 @@ flex/*
 flex/make-flex-2.5.4/*
 !flex/make-flex-2.5.4/*.sh
 !flex/make-flex-2.5.4/*.patch
+!fontconfig
+fontconfig/*
+!fontconfig/make-fontconfig-2.12.1
+fontconfig/make-fontconfig-2.12.1/*
+!fontconfig/make-fontconfig-2.12.1/*.sh
+!fontconfig/make-fontconfig-2.12.1/*.patch
 

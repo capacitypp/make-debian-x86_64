@@ -153,4 +153,8 @@ libxml2/make-libxml2-2.7.1/*
 libxml2/make-libxml2-2.8.0/*
 !libxml2/make-libxml2-2.8.0/*.sh
 !libxml2/make-libxml2-2.8.0/*.patch
+!libxml2/make-libxml2-2.9.4
+libxml2/make-libxml2-2.9.4/*
+!libxml2/make-libxml2-2.9.4/*.sh
+!libxml2/make-libxml2-2.9.4/*.patch
 

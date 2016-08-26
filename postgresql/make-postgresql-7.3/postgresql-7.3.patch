@@ -1,0 +1,256 @@
+diff -ur postgresql-7.3/configure postgresql-7.3.new/configure
+--- postgresql-7.3/configure	2016-08-22 20:43:15.123871441 +0900
++++ postgresql-7.3.new/configure	2016-08-22 20:48:14.503864514 +0900
+@@ -570,7 +570,7 @@
+   -v | -verbose | --verbose | --verbos | --verbo | --verb)
+     verbose=yes ;;
+ 
+-  -version | --version | --versio | --versi | --vers | -V)
++  -version | --version | --versio | --versi | --vers)
+     ac_init_version=: ;;
+ 
+   -with-* | --with-*)
+@@ -2002,8 +2002,8 @@
+   ac_status=$?
+   echo "$as_me:$LINENO: \$? = $ac_status" >&5
+   (exit $ac_status); }
+-{ (eval echo "$as_me:$LINENO: \"$ac_compiler -V </dev/null >&5\"") >&5
+-  (eval $ac_compiler -V </dev/null >&5) 2>&5
++{ (eval echo "$as_me:$LINENO: \"$ac_compiler --version </dev/null >&5\"") >&5
++  (eval $ac_compiler --version </dev/null >&5) 2>&5
+   ac_status=$?
+   echo "$as_me:$LINENO: \$? = $ac_status" >&5
+   (exit $ac_status); }
+@@ -2212,9 +2212,6 @@
+ int
+ main ()
+ {
+-#ifndef __GNUC__
+-       choke me
+-#endif
+ 
+   ;
+   return 0;
+@@ -2313,9 +2310,6 @@
+ # for both compiling C and C++ we need to have the C++ compiler decide
+ # the declaration of exit, since it's the most demanding environment.
+ cat >conftest.$ac_ext <<_ACEOF
+-#ifndef __cplusplus
+-  choke me
+-#endif
+ _ACEOF
+ rm -f conftest.$ac_objext
+ if { (eval echo "$as_me:$LINENO: \"$ac_compile\"") >&5
+@@ -2505,9 +2499,6 @@
+ int
+ main ()
+ {
+-#ifdef __FAST_MATH__
+-choke me
+-#endif
+   ;
+   return 0;
+ }
+@@ -2563,8 +2554,8 @@
+   cat >conftest.$ac_ext <<_ACEOF
+ #line $LINENO "configure"
+ #include "confdefs.h"
++#define __STDC__
+ #include <assert.h>
+-                     Syntax error
+ _ACEOF
+ if { (eval echo "$as_me:$LINENO: \"$ac_cpp conftest.$ac_ext\"") >&5
+   (eval $ac_cpp conftest.$ac_ext) 2>conftest.er1
+@@ -2597,7 +2588,6 @@
+   cat >conftest.$ac_ext <<_ACEOF
+ #line $LINENO "configure"
+ #include "confdefs.h"
+-#include <ac_nonexistent.h>
+ _ACEOF
+ if { (eval echo "$as_me:$LINENO: \"$ac_cpp conftest.$ac_ext\"") >&5
+   (eval $ac_cpp conftest.$ac_ext) 2>conftest.er1
+@@ -2655,7 +2645,6 @@
+ #line $LINENO "configure"
+ #include "confdefs.h"
+ #include <assert.h>
+-                     Syntax error
+ _ACEOF
+ if { (eval echo "$as_me:$LINENO: \"$ac_cpp conftest.$ac_ext\"") >&5
+   (eval $ac_cpp conftest.$ac_ext) 2>conftest.er1
+@@ -2688,7 +2677,6 @@
+   cat >conftest.$ac_ext <<_ACEOF
+ #line $LINENO "configure"
+ #include "confdefs.h"
+-#include <ac_nonexistent.h>
+ _ACEOF
+ if { (eval echo "$as_me:$LINENO: \"$ac_cpp conftest.$ac_ext\"") >&5
+   (eval $ac_cpp conftest.$ac_ext) 2>conftest.er1
+@@ -2721,6 +2709,7 @@
+ done
+ # Because of `break', _AC_PREPROC_IFELSE's cleaning code was skipped.
+ rm -f conftest.err conftest.$ac_ext
++ac_preproc_ok=:
+ if $ac_preproc_ok; then
+   :
+ else
+@@ -9854,11 +9843,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10060,11 +10045,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10138,11 +10119,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10411,11 +10388,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10499,11 +10472,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10602,11 +10571,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10797,11 +10762,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -10966,11 +10927,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_syslog) || defined (__stub___syslog)
+-choke me
+-#else
+ f = syslog;
+-#endif
+ 
+   ;
+   return 0;
+@@ -11129,7 +11086,7 @@
+ int
+ main ()
+ {
+-extern int optreset; optreset = 1;
++//extern int optreset; optreset = 1;
+   ;
+   return 0;
+ }
+@@ -11154,6 +11111,7 @@
+ fi
+ rm -f conftest.$ac_objext conftest$ac_exeext conftest.$ac_ext
+ fi
++pgac_cv_var_int_optreset=no
+ echo "$as_me:$LINENO: result: $pgac_cv_var_int_optreset" >&5
+ echo "${ECHO_T}$pgac_cv_var_int_optreset" >&6
+ if test x"$pgac_cv_var_int_optreset" = x"yes"; then
+@@ -11201,11 +11159,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -11278,11 +11232,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -11356,11 +11306,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;
+@@ -11430,11 +11376,7 @@
+ /* The GNU C library defines this for functions which it implements
+     to always fail with ENOSYS.  Some functions are actually named
+     something starting with __ and the normal name is an alias.  */
+-#if defined (__stub_$ac_func) || defined (__stub___$ac_func)
+-choke me
+-#else
+ f = $ac_func;
+-#endif
+ 
+   ;
+   return 0;

@@ -124,3 +124,5 @@ php-7.0.10
 ### postgresql
 postgresql-7.1
 
+postgresql-7.3
+

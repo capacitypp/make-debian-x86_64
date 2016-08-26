@@ -241,4 +241,8 @@ postgresql/*
 postgresql/make-postgresql-7.1/*
 !postgresql/make-postgresql-7.1/*.sh
 !postgresql/make-postgresql-7.1/*.patch
+!postgresql/make-postgresql-7.3
+postgresql/make-postgresql-7.3/*
+!postgresql/make-postgresql-7.3/*.sh
+!postgresql/make-postgresql-7.3/*.patch
 

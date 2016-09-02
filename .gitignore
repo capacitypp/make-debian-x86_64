@@ -273,4 +273,10 @@ zlib/make-zlib-1.2.3/*
 zlib/make-zlib-1.2.8/*
 !zlib/make-zlib-1.2.8/*.sh
 !zlib/make-zlib-1.2.8/*.patch
+!libjpeg
+libjpeg/*
+!libjpeg/make-libjpeg-9b
+libjpeg/make-libjpeg-9b/*
+!libjpeg/make-libjpeg-9b/*.sh
+!libjpeg/make-libjpeg-9b/*.patch
 

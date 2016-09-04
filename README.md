@@ -140,3 +140,9 @@ zlib-1.2.3
 
 zlib-1.2.8
 
+### libjpeg
+libjpeg-9b
+
+### curl
+curl-7.50.1
+

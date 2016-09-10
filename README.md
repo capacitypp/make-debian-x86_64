@@ -146,3 +146,6 @@ libjpeg-9b
 ### curl
 curl-7.50.1
 
+### ffmpeg
+ffmpeg-3.1.3
+

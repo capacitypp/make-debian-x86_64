@@ -257,6 +257,10 @@ postgresql/make-postgresql-9.1.0/*
 postgresql/make-postgresql-9.5.4/*
 !postgresql/make-postgresql-9.5.4/*.sh
 !postgresql/make-postgresql-9.5.4/*.patch
+!postgresql/make-postgresql-9.6.0
+postgresql/make-postgresql-9.6.0/*
+!postgresql/make-postgresql-9.6.0/*.sh
+!postgresql/make-postgresql-9.6.0/*.patch
 !readline
 readline/*
 !readline/make-readline-4.3
